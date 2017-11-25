@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Seleccione un estacionamiento
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="https://capital-cdmx.org/uploads/normal/5a720e5b70ee74cc48b579c081ef8996.jpg">
+      </ion-thumbnail>
+      <h2>{{nombreEstacionamiento}}</h2>
+      <p>Descripccion</p>
+      <button (click)="cambiarNombre('$500 Hrs')" ion-button block>Detalle</button>
+    </ion-item>
+  </ion-list>
+
+  
+</ion-content>
